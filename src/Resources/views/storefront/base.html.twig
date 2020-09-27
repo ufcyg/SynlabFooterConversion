@@ -1,0 +1,27 @@
+{% sw_extends '@Storefront/storefront/base.html.twig' %}
+
+{% block base_footer %}
+    <div class="footer-conversion-desktop-wrapper" 
+        style="background-color: {{page.footer.extensions['FooterConversion'].get('backgroundColor')}};
+            font-size: {{page.footer.extensions['FooterConversion'].get('fontSize')}}px;
+            color: {{page.footer.extensions['FooterConversion'].get('textColor')}}"
+        >
+        <div class="container">
+            <div class ="footer-conversion-item">
+            <a href="{{page.footer.extensions['FooterConversion'].get('firstItemLink')}}" style="color: {{page.footer.extensions['FooterConversion'].get('textColor')}}" target="_blank">{{page.footer.extensions['FooterConversion'].get('firstItem')}}</a>
+            </div>
+            <div class ="footer-conversion-item">
+            <a href="{{page.footer.extensions['FooterConversion'].get('secondItemLink')}}" style="color: {{page.footer.extensions['FooterConversion'].get('textColor')}}" target="_blank">{{page.footer.extensions['FooterConversion'].get('secondItem')}}</a>
+            </div>
+            <div class ="footer-conversion-item">
+              <a href="{{page.footer.extensions['FooterConversion'].get('thirdItemLink')}}" style="color: {{page.footer.extensions['FooterConversion'].get('textColor')}}" target="_blank">{{page.footer.extensions['FooterConversion'].get('thirdItem')}}</a>
+            </div>
+            <div class ="footer-conversion-item">
+              <a href="{{page.footer.extensions['FooterConversion'].get('fourthItemLink')}}" style="color: {{page.footer.extensions['FooterConversion'].get('textColor')}}" target="_blank">{{page.footer.extensions['FooterConversion'].get('fourthItem')}}</a>
+            </div>
+            <div class ="footer-conversion-item">
+              <a href="{{page.footer.extensions['FooterConversion'].get('fifthItemLink')}}" style="color: {{page.footer.extensions['FooterConversion'].get('textColor')}}" target="_blank">{{page.footer.extensions['FooterConversion'].get('fifthItem')}}</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}

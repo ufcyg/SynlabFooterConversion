@@ -1,0 +1,25 @@
+{
+    "name": "synlab/footer-conversion",
+    "description": "Changes the footer of all pages",
+    "version": "v1.0.0",
+    "license": "Proprietary",
+    "authors": [
+        {
+            "name": "SYNLAB A&S Germany"
+        }
+    ],
+    "type": "shopware-platform-plugin",
+    "autoload": {
+        "psr-4": {
+            "Synlab\\FooterConversion\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "Synlab\\FooterConversion\\FooterConversion",
+        "copyright": "(c) by SYNLAB A&S Germany",
+        "label": {
+            "de-DE": "Footer Conversion",
+            "en-GB": "Footer Conversion"
+        }
+    }
+}

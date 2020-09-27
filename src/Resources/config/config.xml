@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
+
+
+    <card>
+        <title>General</title>
+        <title lang="de-DE">Allgemein</title>
+        <input-field>
+            <name>backgroundColor</name>
+            <label>Background Color</label>
+            <label lang="de-DE">Hintergrund Farbe</label>          
+            <placeholder>Colour of background</placeholder>
+            <placeholder lang="de-DE">Farbe des Hintergrundes</placeholder>
+            <helpText>Add a color, e.g. #ffffff</helpText>
+            <helpText lang="de-DE">Trage eine Farbe ein #ffffff</helpText>
+        </input-field>
+        <input-field>
+            <name>textColor</name>
+            <label>Text Color</label>
+            <label lang="de-DE">Text Farbe</label>          
+            <placeholder>Colour of text</placeholder>
+            <placeholder lang="de-DE">Farbe des Textes</placeholder>
+            <helpText>Add a color, e.g. #ffffff</helpText>
+            <helpText lang="de-DE">Trage eine Farbe ein #ffffff</helpText>
+        </input-field>
+        <input-field type="int">
+            <name>fontSize</name>
+            <label>Font Size</label>
+            <label lang="de-DE">Schriftgröße</label>          
+            <placeholder>12</placeholder>
+            <placeholder lang="de-DE">12</placeholder>
+            <helpText>Define a font size</helpText>
+            <helpText lang="de-DE">Definiere eine Schriftgröße</helpText>
+        </input-field>
+    </card>
+
+
+    <card>
+        <title>Desktop</title>
+        <input-field>
+            <name>firstItem</name>
+            <label>First item</label>
+            <label lang="de-DE">Erster Eintrag</label>          
+            <placeholder>First item</placeholder>
+            <placeholder lang="de-DE">Erster Eintrag</placeholder>
+            <helpText>Add some Text</helpText>
+            <helpText lang="de-DE">Text eintragen</helpText>
+        </input-field>
+        <input-field>
+            <name>firstItemLink</name>
+            <label>First item Link</label>
+            <label lang="de-DE">Erster Eintrags Link</label>          
+            <placeholder>First item link</placeholder>
+            <placeholder lang="de-DE">Erster Eintrags Link</placeholder>
+            <helpText>Add a hyperlink</helpText>
+            <helpText lang="de-DE">Link eintragen</helpText>
+        </input-field>
+
+        <input-field>
+            <name>secondItem</name>
+            <label>Second item</label>
+            <label lang="de-DE">Zweiter Eintrag</label>          
+            <placeholder>Second item</placeholder>
+            <placeholder lang="de-DE">Zweiter Eintrag</placeholder>
+            <helpText>Add some Text</helpText>
+            <helpText lang="de-DE">Text eintragen</helpText>
+        </input-field>
+        <input-field>
+            <name>secondItemLink</name>
+            <label>Second item Link</label>
+            <label lang="de-DE">Zweiter Eintrags Link</label>          
+            <placeholder>Second item link</placeholder>
+            <placeholder lang="de-DE">Zweiter Eintrags Link</placeholder>
+            <helpText>Add a hyperlink</helpText>
+            <helpText lang="de-DE">Link eintragen</helpText>
+        </input-field>
+
+        <input-field>
+            <name>thirdItem</name>
+            <label>Third item</label>
+            <label lang="de-DE">Dritter Eintrag</label>          
+            <placeholder>Third item</placeholder>
+            <placeholder lang="de-DE">DritterEintrag</placeholder>
+            <helpText>Add some Text</helpText>
+            <helpText lang="de-DE">Text eintragen</helpText>
+        </input-field>
+        <input-field>
+            <name>thirdItemLink</name>
+            <label>Third item Link</label>
+            <label lang="de-DE">Dritter Eintrags Link</label>          
+            <placeholder>Third item link</placeholder>
+            <placeholder lang="de-DE">Dritter Eintrags Link</placeholder>
+            <helpText>Add a hyperlink</helpText>
+            <helpText lang="de-DE">Link eintragen</helpText>
+        </input-field>
+
+        <input-field>
+            <name>fourthItem</name>
+            <label>Fourth item</label>
+            <label lang="de-DE">Vierter Eintrag</label>          
+            <placeholder>Fourth item</placeholder>
+            <placeholder lang="de-DE">Vierter Eintrag</placeholder>
+            <helpText>Add some Text</helpText>
+            <helpText lang="de-DE">Text eintragen</helpText>
+        </input-field>
+        <input-field>
+            <name>fourthItemLink</name>
+            <label>Fourth item Link</label>
+            <label lang="de-DE">Vierter Eintrags Link</label>          
+            <placeholder>Fourth item link</placeholder>
+            <placeholder lang="de-DE">Vierter Eintrags Link</placeholder>
+            <helpText>Add a hyperlink</helpText>
+            <helpText lang="de-DE">Link eintragen</helpText>
+        </input-field>
+
+        <input-field>
+            <name>fifthItem</name>
+            <label>Fifth item</label>
+            <label lang="de-DE">Fünfter Eintrag</label>          
+            <placeholder>Fifth item</placeholder>
+            <placeholder lang="de-DE">Fünfter Eintrag</placeholder>
+            <helpText>Add some Text</helpText>
+            <helpText lang="de-DE">Text eintragen</helpText>
+        </input-field>
+        <input-field>
+            <name>fifthItemLink</name>
+            <label>Fifth item Link</label>
+            <label lang="de-DE">Fünfter Eintrags Link</label>          
+            <placeholder>Fifth item link</placeholder>
+            <placeholder lang="de-DE">Fünfter Eintrags Link</placeholder>
+            <helpText>Add a hyperlink</helpText>
+            <helpText lang="de-DE">Link eintragen</helpText>
+        </input-field>
+    </card>
+</config>
