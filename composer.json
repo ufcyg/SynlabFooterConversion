@@ -2,7 +2,7 @@
     "name": "synlab/footer-conversion",
     "description": "Changes the footer of all pages",
     "version": "v1.0.0",
-    "license": "Proprietary",
+    "license": "proprietary",
     "authors": [
         {
             "name": "SYNLAB A&S Germany"
